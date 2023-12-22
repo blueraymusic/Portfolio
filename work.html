@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+       
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="index.html#home" class="nav__logo">Adel</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="index.html#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="index.html#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="index.html#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="index.html#extracurricular" class="nav__link">Extracurricular</a></li>
+                        <li class="nav__item"><a href="index.html#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+          
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <style>
+                    .centered {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    color: rgb(255, 255, 255);
+                    display: none;
+                    }
+                    .work__img:hover .centered {
+                        display:block;  
+                    }
+                    
+
+                </style>
+                <div class="work__container bd-grid" id="cont">
+                    <a href="https://github.com/blueraymusic/Cmd-bot/" class="work__img">
+                        <img src="assets/img/computerbot.jpg" alt="Cmdbot">  
+                        <div class="centered">Computer Assistant</div>
+                    </a>
+                    <a href="https://blueraymusic.github.io/Blueray/" class="work__img">
+                        <img src="assets/img/chillhop.jpg" alt="Blueraymusic">
+                        <div class="centered">Blueray</div>
+                    </a>
+                    <a href="https://github.com/blueraymusic/Folkrace_PID_State_Machine/blob/master/Avoidance.ino" class="work__img">
+                        <img src="assets/img/PID.jpg" alt="Proportional-Integral-Derivative">
+                        <div class="centered">PID Algorithm</div>
+                    </a>
+                    <a href="https://blueraymusic.github.io/Wood/" class="work__img">
+                        <img src="assets/img/Wood.png" alt="Wodly-Game">
+                        <div class="centered">Wood Game</div>
+                    </a>
+                    <a href="https://robotexturkiye.com" class="work__img">
+                        <img src="assets/img/legosumo.jpg" alt="robotexturkiye">
+                        <div class="centered">Robotex</div>
+                    </a>
+                    <a href="https://blueraymusic.github.io/Zombie/" class="work__img">
+                        <img src="assets/img/Zombie.png" alt="Zombie">
+                        <div class="centered">Zombie Game</div>
+                    </a>
+                    <a href="https://github.com/blueraymusic/Prediction/" class="work__img">
+                        <img src="assets/img/Prediction.png" alt="Prediction">
+                        <div class="centered">Stock Prediction</div>
+                    </a>
+                    <a href="https://github.com/blueraymusic/Image-To-Draw" class="work__img">
+                        <img src="assets/img/Imagetodraw.png" alt="Image-To-Draw">
+                        <div class="centered">Image To Draw</div>
+                    </a>
+                    <a href="https://github.com/blueraymusic/Maze-Simulator" class="work__img">
+                        <img src="assets/img/Maze Sim.png" alt="Maze-Simulator">
+                        <div class="centered">Mouse Simulator</div>
+                    </a>
+                    <a href="https://github.com/blueraymusic/chatbot" class="work__img">
+                        <img src="assets/img/PID.jpg" alt="Chatbot">
+                        <div class="centered">Chatbot</div>
+                    </a>
+  
+                    <a href="https://www.desmos.com/calculator/xacdzwmlbq" class="work__img">
+                        <img src="assets/img/Desmos.png" alt="Desmos-art">
+                        <div class="centered">Desmos Art</div>
+                    </a>
+                
+                    <a href="https://github.com/blueraymusic/Perform-Gradient-Descent" class="work__img">
+                        <img src="assets/img/gradients.png"  alt="Perform-Gradient-Descent">
+                        <div class="centered"><span>Gradient Descent</span></div>
+                    </a>
+                    <a href="https://blueraymusic.github.io/Baley/" class="work__img">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Biology-0001.jpg/600px-Biology-0001.jpg"alt="Perform-Gradient-Descent">
+                        <div class="centered"><span>Biology Courses</span></div>
+                    </a>
+
+
+                </div>
+            </section>
+
+            
+           
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Adel</p>
+            <div class="footer__social">
+                <a href="https://facebook.com" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://instagram.com" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://twitter.com" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Portfolio. All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+   
+</html>
