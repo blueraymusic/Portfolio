@@ -22,9 +22,9 @@ for (item of items) {
   substr(2, 10);
   item.setAttribute("data-timeline", randomId);
 
-  item.addEventListener("click", e => {
-    handleItemClick(randomId);
-  });
+  //item.addEventListener("click", e => {
+  //  handleItemClick(randomId);
+  //});
 
   item.addEventListener("mouseover", e => {
     if (!isExpanded && e.target.tagName === "IMG") {
