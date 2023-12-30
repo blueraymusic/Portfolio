@@ -213,13 +213,71 @@
                             </div>
                             
                         </div>
-                    </div>   
+                    </div>  
+                    <style>
+                        .container {
+                            margin: 0 4em;
+                            display: flex;
+                            gap: 1em;
+                            margin-left: 100px;
+                        }
+                        
+                        
+                        #astyle {
+                            color: rgb(0, 99, 228);
+                            font-size: 1.3rem;
+                            text-decoration: none;
+                            margin-top: 1em;
+                            display: inline-block;
+                            font-weight: bold;
+                            padding: .5em;
+                            margin-left: -.5em;
+                            position: relative;
+                            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+                        
+                            &:before, &:after {
+                                position: absolute;
+                                content: '';
+                                border-bottom: 3px solid rgb(0, 99, 228);
+                                border-radius: 1em;
+                                bottom: .3em;
+                                transition: transform .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+                            }
+                        
+                            &:before {
+                                width: 1em;
+                                transform-origin: left;
+                            }
+                        
+                            &:after {
+                                width: 82%;
+                                left: 1em;
+                                transform: translateX(110%);
+                            }
+                        
+                            &:hover:before {
+                                transform: scaleX(0.3);
+                            }
+                        
+                            &:hover:after {
+                                transform: translateX(0);
+                            }
+                        
+                        }</style>
+                    <div class="container">
+                        <div class="card">
+    
+                            <a href="skills.html" id="astyle">Additonal</a>
+                        </div>
+                    
+                    </div> 
                 </div>
+                
             </section>
 
             <!--===== WORK =====-->
             <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
+                <h2 class="section-title">Skills</h2>
 
                 <div class="work__container bd-grid">
                     <a href="work.html" class="work__img">
@@ -415,9 +473,10 @@
           
           <h2 class="timeline-title">Keystone Olympics Volleyball</h2>
           <p class="timeline-excerpt">Volleyball Competition #1</p>
-        </div>
+        </div>     
       </div>
-      
+
+     
     </div>
     <div class="timeline-overlay"></div>
     <button class="timeline-back" style="display:none">
